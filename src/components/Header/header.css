@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F2EDEC;
+    height: 70px;
+}
+
+.logo a {
+    font-size: 27px;
+    text-decoration: none;
+    color: #403F3F;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.vagas {
+    display: flex;
+    align-items: center;
+}
+
+.see-vagas {
+    text-decoration: none;
+    color: #6F6F6F;
+    font-weight: 600;
+}
+
+.open-vagas{
+    margin-left: 40px;
+    background-color: tomato;
+    color: #FFF;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 600;
+}

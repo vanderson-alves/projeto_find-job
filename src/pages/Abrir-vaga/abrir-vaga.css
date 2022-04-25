@@ -1,0 +1,50 @@
+.container-abrir-vagas {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.titulo-subtitulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conteudo {
+    margin-left: 30px;
+}
+
+.conteudo input {
+    padding: 7px;
+    width: 95%;
+}
+
+.conteudo textarea {
+    width: 95%;
+    padding: 7px;
+    height: 100px;
+}
+
+.titulo-input {
+    padding-bottom: 10px;
+}
+
+.botao {
+    margin-bottom: 30px;
+}
+
+.conteudo a {
+    background-color: tomato;
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.email, .contratante, .descricao, .titulo-vaga, .salario {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

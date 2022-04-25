@@ -1,0 +1,41 @@
+.container-ver-vagas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.voltar {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.voltar a {
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: tomato;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.img-topo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.titulo {
+    color: tomato;
+}
+
+.texto {
+    text-align: center;
+}
+
+.contato {
+    margin-bottom: 40px;
+}
+
+.contato strong {
+    color: tomato;
+}

@@ -1,0 +1,81 @@
+/* Configurações do Banner (dentro da imagem) */
+
+.container-home {
+    background-image: url("../../assets/predios.jpg");
+  /*  background-position: 0 100px;*/
+    background-size: cover;
+}
+
+.texto-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+}
+
+.texto-banner h1 {
+    padding: 30px 0;
+    font-size: 3rem;
+}
+
+.texto-banner p {
+    margin-bottom: 100px;
+    padding: 2px;
+ /*   background-color: #1B283B; */
+    font-size: 1.2rem;
+}
+
+.input-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.input-banner input {
+    height: 50px;
+    width: 30%;
+}
+
+.input-banner button {
+    width: 20%;
+    height: 55px;
+}
+
+/* Configurações das vagas (fora da imagem) */
+
+.container-vagas {
+  /*  background-color: #1B283B; */
+    background-color: #F2EDEC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-vagas {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid gray;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.caixa-vagas a {
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 40px;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.container-vagas img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}

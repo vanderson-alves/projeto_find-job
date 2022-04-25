@@ -1,0 +1,11 @@
+footer {
+    background-color: #403F3F;
+}
+
+.footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFF;
+    height: 60px;
+}
